@@ -7,6 +7,19 @@
 //Teste larissa
 
 int main() {
+
+printf("São Paulo\n");
+
+char cidade[30] = "Campinas";
+char codigoCarta[20] = "A01";
+int Populacao = 
+
+
+
+
+
+
+
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
