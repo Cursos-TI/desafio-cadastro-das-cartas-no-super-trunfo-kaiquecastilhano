@@ -8,11 +8,43 @@
 
 int main() {
 
-printf("São Paulo\n");
+char estado[30];
+char cidade[30];
+char codigoCarta[20];
+int Populacao;
+float area;
+float PIB;
+int Pontos_Turisticos;
 
-char cidade[30] = "Campinas";
-char codigoCarta[20] = "A01";
-int Populacao = 
+printf("Estado?\n");
+scanf("%s", &estado);
+
+printf("Qual o Nome da Cidade?\n");
+scanf("%s", &cidade);
+
+printf("insira o Código da Carta!\n");
+scanf("%s", &codigoCarta);
+
+printf("População?\n");
+scanf("%d", &Populacao);
+
+printf("Área da Cidade?\n");
+scanf("%f", &area);
+
+printf("PIB Da Sua Cidade?\n");
+scanf("%f", &PIB);
+
+printf("Quantos Pontos Turisticos Tem a Cidade?\n");
+scanf("%d", &Pontos_Turisticos);
+
+printf("Nome Da Cidade: %s\n", cidade);
+printf("Código Da Carta: %s\n", codigoCarta);
+printf("População: %d Pessoas\n", Populacao);
+printf("Área: %6.2f km²\n", area);
+printf("PIB: %6.2f R$\n", PIB);
+printf("Pontos Turisticos: %d\n", Pontos_Turisticos);
+
+
 
 
 
